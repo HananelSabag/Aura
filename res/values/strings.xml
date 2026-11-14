@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aura</string>
+    <string name="buttons_label">Aura · כפתורי השלט</string>
+    <string name="buttons_description">כפתורים פנויים בשלט פותחים את האפליקציות שבחרתם בהגדרות Aura. השירות רואה רק את לחיצות השלט, לא את מה שעל המסך.</string>
+</resources>

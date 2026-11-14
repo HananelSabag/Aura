@@ -1,0 +1,14 @@
+# Build output
+build/
+*.apk
+*.idsig
+
+# This PC only: signing key settings, the TVs, undo logs
+*.keystore
+*.jks
+signing.local.ps1
+tv/devices.local.ps1
+tv/undo/
+
+# Wallpaper collections are personal pictures (and other people's art): they stay local
+tv/wallpapers/

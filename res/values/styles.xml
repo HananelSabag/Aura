@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No action bar; near-black window so there is never a flash before the background is drawn. -->
+    <style name="Aura" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="android:colorAccent">#FFFFFF</item>
+        <!-- Strong, colored elevation shadows: a focused card glows in its own color. -->
+        <item name="android:ambientShadowAlpha">0.28</item>
+        <item name="android:spotShadowAlpha">0.62</item>
+    </style>
+    <color name="bg">#05060A</color>
+</resources>
